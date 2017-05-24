@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_room_white_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="You are now at:"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Faculty of Engineering-ASU"
+        android:textSize="18dp"
+        android:id="@+id/current_place"
+        android:textStyle="bold"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating_bar"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post a review:"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="#747474"
+        android:textColorHint="#b4b3b3"
+        android:id="@+id/review_title"
+        android:hint="Review title"
+        android:background="@drawable/edit_text_borders"/>
+
+    <EditText
+        android:hint="Review Content"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="3"
+        android:gravity="start"
+        android:padding="10dp"
+        android:textColor="#747474"
+        android:textColorHint="#b4b3b3"
+        android:inputType="textMultiLine"
+        android:id="@+id/review_content"
+        android:background="@drawable/edit_text_borders"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:id="@+id/submit_rev"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:background="@drawable/button_borders"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aya.pleces_rev.Register"
+    tools:showIn="@layout/activity_register">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text_borders"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:hint="Name"
+        android:textSize="16dp"
+        android:textColorHint="#747474"
+        android:id="@+id/name"
+        android:textColor="#747474"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_borders"
+        tools:layout_editor_absoluteY="0dp"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:textColor="#747474"
+        android:hint="Email"
+        android:textColorHint="#747474"
+        android:id="@+id/email"
+        android:padding="10dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text_borders"
+        android:textColor="#747474"
+        android:textSize="16dp"
+        android:id="@+id/password"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textColorHint="#747474"
+        android:inputType="textPassword"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/button_borders"
+        android:text="Create Account"
+        android:id="@+id/register_btn"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"/>
+
+</LinearLayout>

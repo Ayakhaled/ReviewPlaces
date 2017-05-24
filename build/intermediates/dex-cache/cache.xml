@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/aya/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/home/aya/pleces-rev/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.2_e4eebbd06257d2c5341b6c6423846ea8b879a9e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aya/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.1/f5aa318bda4c6c8d688c9d00b90681dcd82ce636/httpcore-4.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="/home/aya/pleces-rev/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpcore-4.4.1_4410884980d337b4db9a1586a792638f52fc4d64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aya/pleces-rev/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/aya/pleces-rev/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8faf4d25d1e46db0a059b831b2001b6a639fcfd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aya/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/aya/pleces-rev/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_01666e88866356a2609e799baf7c368c679fe066/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aya/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/home/aya/pleces-rev/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.2_298e5779e333052c8a8397a65bb399cb789fe2ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aya/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/aya/pleces-rev/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_72f1c9b59c6714093a7dae50a899993cea8eead3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aya/pleces-rev/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="beee9a5af95584275d52a0358b3eee2aabbd682a">
+        <dex dex="/home/aya/pleces-rev/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7257e2f8722011fca5145092f6588dfa0ce1b21e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aya/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/aya/pleces-rev/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_2bee8d1395c07c68db2a202ce50c8e28a026d2a9/classes.dex" />
+    </item>
+
+</items>
